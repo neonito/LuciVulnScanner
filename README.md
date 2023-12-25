@@ -1,3 +1,5 @@
 # shodan-vuln-checker
-this script checks if there are devices in the ip list that are vuln to the CVE you are interested in it also returns what country the ip is from 
-for this script to work properly you need the api from this site https://ipdata.co/
+This script checks for vulnerable hosts in the ip list the script will return all vulnerable hosts to a txt file
+
+• for this script to work properly you need the api from this site https://ipdata.co/
+• you need to create a file txt "ip.txt" ip in the file should be written one under the other 
