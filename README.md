@@ -3,4 +3,4 @@ This script checks for vulnerable hosts in the ip list the script will return al
 
 **• for this script to work properly you need the api from this site https://ipdata.co/**
 
-**• you need to create a file txt "ip.txt" ip in the file should be written one under the other**
+**• create a text file named 'ip.txt' where each IP should be written on a separate line**
