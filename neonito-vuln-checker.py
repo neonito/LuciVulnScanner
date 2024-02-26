@@ -64,7 +64,6 @@ def ip_info(ip, columns, summary):
         "threat": is_threat
     })
 
-    # Aktualizacja podsumowania
     summary["vulns"] += len(vulns)
     summary["honeypot"] += 1 if honeypot == "yes" else 0
     summary["tor"] += 1 if is_tor == "yes" else 0
@@ -105,7 +104,6 @@ try:
         with open("output.json", "w") as json_file:
             json.dump({"summary": summary, "ip_details": columns}, json_file, indent=2)
 
-        # Wyświetlanie podsumowania
         print(f"Summary:")
         print(f"Total Vulns: {summary['vulns']}")
         print(f"Honeypot: {summary['honeypot']}")
