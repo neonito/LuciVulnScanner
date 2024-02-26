@@ -10,7 +10,7 @@
 # How To Run
 `python3 neonito-vuln-checker.py`
 
-#Result 
+# Result 
 
 **Ip and Country in the log are not real, only are examples of the script result**
 ```{
