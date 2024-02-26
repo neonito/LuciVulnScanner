@@ -1,6 +1,7 @@
-# shodan-vuln-checker
-This script checks for vulnerable hosts in the ip list the script will return all vulnerable hosts to a txt file
+# neonito-vuln-checker.py
 
-**• for this script to work properly you need the api from this site https://ipdata.co/**
+# Description
+**The script collect information about IP addresses from the `ips.txt` file using queries to Shodan and ipdata.co services. It then generates a JSON file with the data and displays a summary on the console. Additionally, the script checks for vulnerabilities (CVEs) associated with each IP address, as well as other characteristics such as honeypot, TOR, VPN, etc., and includes this comprehensive information in the output.**
 
-**• create a text file named 'ip.txt' where each IP should be written on a separate line**
+## Instructions
+test
