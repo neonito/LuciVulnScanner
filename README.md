@@ -13,6 +13,7 @@
 # Result 
 
 **Ip and Country in the log are not real, only are examples of the script result**
+
 ```{
   "summary": {
     "vulns": 2,
