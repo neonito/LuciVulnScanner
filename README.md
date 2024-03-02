@@ -15,7 +15,7 @@
 **Ip and Country in the log are not real, only are examples of the script result**
 # JSON
 
-```{
+``{
   "summary": {
     "vulns": 2,
     "honeypot": 0,
@@ -44,9 +44,10 @@
       "threat": "No"
     }
   ]
-}```
+}``
 
-```summary:
+```
+summary:
   vulns: 2
   honeypot: 0
   tor: 0
