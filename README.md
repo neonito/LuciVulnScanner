@@ -44,7 +44,7 @@
       "threat": "No"
     }
   ]
-}
+}```
 
 ```summary:
   vulns: 2
