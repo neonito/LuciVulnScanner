@@ -1,20 +1,26 @@
 # neonito-vuln-checker.py
 
-# Description
-**The script collect information about IP addresses from the `ip.txt` file using queries to shodan and ipdata.co services. It then generates a JSON file with the data and displays a summary on the console. Additionally, the script checks for vulnerabilities (CVEs) associated with each IP address, as well as other characteristics such as honeypot, tor, vpn, etc. And includes this comprehensive information in the output.**
+## Description
 
-# Instructions
-- Txt file named `ip.txt` filled with ip addresses
-- Required api from `ipdata.co`
+The script collect information about IP addresses from the `ip.txt` file using queries to shodan and ipdata.co services. It then generates a JSON file with the data and displays a summary on the console. Additionally, the script checks for vulnerabilities (CVEs) associated with each IP address, as well as other characteristics such as honeypot, tor, vpn, etc. And includes this comprehensive information in the output.
 
-# How To Run
-`python3 neonito-vuln-checker.py`
+## Instructions
 
-# Result 
+- Text file named `ip.txt` filled with an IP-addresses
+- Required API from `ipdata.co`
 
-**IP and Country in the log are not real, only are examples of the script result**
+## How To Run
 
-```{
+```bash
+python3 neonito-vuln-checker.py
+```
+
+## Result
+
+IP and Country in the log are not real, only are examples of the script result.
+
+```json
+{
   "summary": {
     "vulns": 2,
     "honeypot": 0,
@@ -44,3 +50,4 @@
     }
   ]
 }
+```
