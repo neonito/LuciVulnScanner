@@ -9,6 +9,10 @@ The script collect information about IP addresses from the `ip.txt` file using q
 - Text file named `ip.txt` filled with an IP-addresses
 - Required API from `ipdata.co`
 
+## Requirements
+Python 3.x
+Free api from ``ipdata.co``
+
 ## How To Run
 
 ```bash
