@@ -1,4 +1,4 @@
-# LuciVulnScanner.py
+# LuciVulnScanner
 
 ## Description
 
