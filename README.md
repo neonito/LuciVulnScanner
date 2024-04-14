@@ -12,7 +12,7 @@ The script collect information about IP addresses from the `ip.txt` file using q
 ## How To Run
 
 ```bash
-python3 neonito-vuln-checker.py
+python3 LuciVulnScanner.py
 ```
 
 ## Result
