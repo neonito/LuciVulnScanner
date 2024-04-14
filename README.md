@@ -1,4 +1,4 @@
-# neonito-vuln-checker.py
+# LuciVulnScanner.py
 
 ## Description
 
